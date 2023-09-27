@@ -5,19 +5,12 @@ Wiederholung
 Jeders Java-Programm ist folgendermaßen aufgebaut:
 
 ```Java
-import java.util.Scanner;		// Wird für die Benutzereingabe benötigt
-
 public class <Programmname> {
 
 	public static void main(String[] args) {
 		// Programmeinstiegspunkt
 		
-		// Programmausgaben
-		System.out.println("<Text zur Ausgabe>");
-
-		// Benutzereingaben
-		Scanner sc = new Scanner(System.In);
-		<Datentyp> <Variablenname> = sc.next();
+		// Restlicher Programmcode
 	}
 
 }
